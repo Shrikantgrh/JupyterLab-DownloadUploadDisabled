@@ -31,4 +31,8 @@ In "/Users/shrek/opt/anaconda3/lib/python3.7/site-packages/dev_mode/static"
 8. What is change inside the code:
 There was a requirement that the users of this jupyterlab should not able to use the Upload, Download, Export Notebook As,      Save Notebook etc functionality, This can be done by commenting certain line of code in .ts files which have the code for this functionaliy in the respective packages.
 
-9. **Will soon Upload the files names and what to comment in order to disable some functionality in jupyter lab**
+9. Below is the flow diagram of source code of how i approached:
+
+![flow-diagram](https://github.com/Shrikantgrh/JupyterLab-DownloadUploadDisabled/blob/master/jupyterlab.jpg)
+
+10. **Will soon Upload the files names and what to comment in order to disable some functionality in jupyter lab**
